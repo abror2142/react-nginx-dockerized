@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build: ./frontend
+    container_name: frontend-nginx-server
+    restart: always
+    ports:
+      - '8080:80'
+    
+    
